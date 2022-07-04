@@ -1,21 +1,9 @@
-### About this project:Oak Automaty dApp project
+# About this project: Oak Automaty dApp project
 
 An Automation DApp that provides a delightful and transparent user experience for OAK Blockchains
 (starting with Neumann and Turing).
+#
 
-
-## Getting Started
-
-Ensure you have the Polkadot.js extension installed on your browser to connect your wallet to dApp
-
-
-## Quick Links
-
-- Live Project: [Live project Link](https://oak-d-app-automaty-project.vercel.app/) 
-- Project UI design: [Figma Design Link](https://www.figma.com/file/PODz105JF88aLPfabZ6PzQ/OAK-DApp)
-- Project Repository: [Project Repository Link](https://github.com/emmaglorypraise/Oak-Next-Project)
-- Live Backend API: [Backend Api Link](https://oak-dapp-backend.herokuapp.com/)
-- Api Documentation: [API Documentation Link](https://documenter.getpostman.com/view/8629267/UzJESzEg)
 
 ## Project Requirement
 
@@ -25,15 +13,34 @@ When provided with a wallet address, the Automation DApp to be able to:
 
 - [x] Create a future scheduled task to:
 
-- [x] Notify event on the blockchain via automationTime.scheduleNotifyTask(providedId, time, message)
+    -  Notify event on the blockchain via `automationTime.scheduleNotifyTask(providedId, time, message)`
 
-- [x] Perform a wallet transfer via automationTime.scheduleNativeTransferTask(providedId, time, recipientId, amount)
+    -  Perform a wallet transfer via `automationTime.scheduleNativeTransferTask(providedId, time, recipientId, amount)`
 
-- [] Integrate with an external notification service with the possible use cases:
+- [ ] Integrate with an external notification service with the possible use cases:
 
-- [] Listens for events from automationTime.scheduleNotifyTask(providedId, time, message) to send an email notification.
+    - Listens for events from automationTime.scheduleNotifyTask(providedId, time, message) to send an email notification.
 
-- [] Listens for missed tasks events to send an email notification to inform the end use
+    - Listens for missed tasks events to send an email notification to inform the end use
+#
+    
+
+## Getting Started
+
+Ensure you have the Polkadot.js extension installed on your browser to connect your wallet to dApp
+
+
+## Quick Links
+
+- Live Project: [Live project Link](https://oak-d-app-automaty-project.vercel.app/) 
+
+- Project UI design: [Figma Design Link](https://www.figma.com/file/PODz105JF88aLPfabZ6PzQ/OAK-DApp)
+
+- Project Repository: [Project Repository Link](https://github.com/emmaglorypraise/Oak-Next-Project)
+
+- Live Backend API: [Backend Api Link](https://oak-dapp-backend.herokuapp.com/)
+
+- Api Documentation: [API Documentation Link](https://documenter.getpostman.com/view/8629267/UzJESzEg)
 
 
 ## Installation
@@ -44,8 +51,34 @@ $ npm install
 # or if you wish to use yarn
 
 $ yarn install
-
 ```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+or with yarn
+
+```bash
+# development
+$ yarn start
+
+# watch mode
+$ yarn start:dev
+
+# production mode
+$ yarn start:prod
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
