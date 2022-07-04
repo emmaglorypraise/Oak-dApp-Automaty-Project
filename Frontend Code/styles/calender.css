@@ -1,0 +1,83 @@
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 10px;
+  padding: 20px 20px 0px 20px;
+}
+/* .fc .fc-view-harness-active > .fc-view {
+  padding: 1px;
+} */
+.p-8 {
+  padding: 1rem;
+}
+.mt-\[30px\] {
+  margin-top: 20px;
+}
+thead {
+  background-color: rgba(254, 188, 240, 0.3)!important;
+  padding: 20px 0;
+  color: #A22C90!important;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+tbody {
+  background-color: #FFFFFF!important;
+  padding: 20px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  color: #5A5959!important;
+}
+.fc .fc-toolbar-title {
+  font-family:  'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #676565;
+}
+.fc .fc-button-primary {
+  color: rgba(58, 55, 55, 0.6)!important;
+  background-color: rgba(254, 188, 240, 0.3)!important;
+  border-color: rgba(254, 188, 240, 0.3)!important;
+  box-shadow: 0px 4px 5px rgba(253, 253, 253, 0.25)!important;
+}
+.fc .fc-button-primary:disabled {
+  color: rgba(58, 55, 55, 0.6)!important;
+  background-color: rgba(254, 188, 240, 0.3)!important;
+  border-color: rgba(254, 188, 240, 0.3)!important;
+  box-shadow: 0px 4px 5px rgba(253, 253, 253, 0.25)!important;
+}
+.fc .fc-today-button {
+  background-color: #9E2F92!important;
+  border-color: #9E2F92!important;
+  box-shadow: 0px 4px 5px rgba(253, 253, 253, 0.25)!important;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF!important;
+}
+.fc .fc-today-button:disabled {
+  background-color: #9E2F92!important;
+  border-color: #9E2F92!important;
+  box-shadow: 0px 4px 5px rgba(253, 253, 253, 0.25);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF!important;
+}
+
+.fc .fc-daygrid-day.fc-day-today{
+  background-color: #9E2F92!important;
+  color: #FFFFFF!important;
+}
+/* bg-[#F4F1F1] */
