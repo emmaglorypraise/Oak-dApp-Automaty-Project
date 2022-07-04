@@ -5,6 +5,7 @@ import Image from "next/image";
 import Piechart from "../utils/Piechart";
 import bitcoin from "../assets/bitcoin.svg";
 import ethereum from "../assets/ethereum.svg";
+import oak from "../assets/logo.png";
 import usdt from "../assets/usdt.svg";
 import WalletTransfer from "./Modal/WalletTransfer.jsx";
 
@@ -37,7 +38,7 @@ const ChartContainer = () => {
                 </span>
               </div>
               <span className="pt-[6px] text-[#676565] font-semibold text-sm">
-                USD 50,345.28
+                TUR 50,345.28
               </span>
             </div>
             <div className="w-1/2 py-[16px] pl-[16px] md:pl-[86px] flex flex-col">
@@ -52,7 +53,7 @@ const ChartContainer = () => {
                 </span>
               </div>
               <span className="pt-[6px] text-[#676565] font-semibold text-sm">
-                USD 50,345.28
+                TUR 50,345.28
               </span>
             </div>
           </div>
@@ -75,6 +76,37 @@ const ChartContainer = () => {
               </span>
               <div className="bg-[#F4F1F1] rounded-lg mt-[7px] md:ml-[21px] w-full mb-[18px] mx-auto p-[20px] flex">
                 <div className=" w-full">
+                  <div className="flex md:gap-[80px] justify-between mb-4 mr-auto w-full">
+                    <div className="flex">
+                      <div className="mr-[10px]">
+                        <Image
+                          src={oak}
+                          width="17.55"
+                          height="17.55"
+                          className="mb-[10px] mr-[10px]"
+                          alt="tur"
+                        />
+                      </div>
+                      <div>
+                        <p className="font-poppins font-semibold text-[14.036px] leading-[21px] text-[off-black]">
+                          TUR
+                        </p>
+                        <p className="font-poppins font-normal text-[8.77285px] leading-[13px] text-[off-grey]">
+                          Turing
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <RiArrowUpLine
+                        color="#1E9940"
+                        fill="#1E9940"
+                        stroke="#1E9940"
+                      />
+                      <p className="font-poppins font-normal text-[10.5274px] leading-[16px] text-[#1E9940]">
+                        23.4%
+                      </p>
+                    </div>
+                  </div>
                   <div className="flex md:gap-[80px]  justify-between mb-4 mr-auto w-full">
                     <div className="flex">
                       <div className="mr-[10px]">

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { RiArrowDownSLine, RiCheckboxBlankCircleFill } from "react-icons/ri";
 import pencil from "../assets/pencil.svg";
 import Image from "next/image";
-import metamask from "../assets/metamask.svg";
+import metamask from "../assets/metamask.png";
 import ScheduleTask from "./Modal/ScheduleTask";
 import { addressShortner } from "../utils/helper";
 
@@ -125,13 +125,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -148,13 +148,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -171,13 +171,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -194,13 +194,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -217,13 +217,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -240,13 +240,13 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
             </span>
           </div>
           <div className="bg-white  flex justify-between p-4 ">
@@ -263,13 +263,36 @@ const TaskContainer = () => {
                   />
                 </span>
               </div>
-              Metamask
+              Polkadot.js
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              20.36 ETH
+              20.36 TUR
             </span>
             <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
-              $2,435
+              $2,000
+            </span>
+          </div>
+          <div className="bg-white  flex justify-between p-4 ">
+            <span className="text-[12px] leading-[18px] font-normal text-[#3a3737] font-poppins flex">
+              {" "}
+              <div className="mr-[12px]">
+                <span>
+                  <Image
+                    src={metamask}
+                    width="28"
+                    height="27"
+                    className="mr-4"
+                    alt="metamask icon"
+                  />
+                </span>
+              </div>
+              Polkadot.js
+            </span>
+            <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
+              20.36 TUR
+            </span>
+            <span className="text-[12px] leading-[18px] font-medium text-[#3a3737] font-poppins">
+              $2,000
             </span>
           </div>
         </div>
