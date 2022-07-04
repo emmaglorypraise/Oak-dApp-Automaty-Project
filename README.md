@@ -28,12 +28,12 @@ When provided with a wallet address, the Automation DApp to be able to:
 - Notify event on the blockchain via automationTime.scheduleNotifyTask(providedId, time, message)
 
 - Perform a wallet transfer via automationTime.scheduleNativeTransferTask(providedId, time, recipientId, amount)
-
+<!-- 
 3. Integrate with an external notification service with the possible use cases:
 
 - Listens for events from automationTime.scheduleNotifyTask(providedId, time, message) to send an email notification.
 
-- Listens for missed tasks events to send an email notification to inform the end use
+- Listens for missed tasks events to send an email notification to inform the end use -->
 
 
 ## Deployed on Vercel
