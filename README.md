@@ -21,19 +21,19 @@ Ensure you have the Polkadot.js extension installed on your browser to connect y
 
 When provided with a wallet address, the Automation DApp to be able to:
 
-- [x] 1. View the current tasks queued for the given wallet
+- [x] View the current tasks queued for the given wallet
 
-- [x] 2. Create a future scheduled task to:
+- [x] Create a future scheduled task to:
 
-- [x] - Notify event on the blockchain via automationTime.scheduleNotifyTask(providedId, time, message)
+- [x] Notify event on the blockchain via automationTime.scheduleNotifyTask(providedId, time, message)
 
-- [x] - Perform a wallet transfer via automationTime.scheduleNativeTransferTask(providedId, time, recipientId, amount)
+- [x] Perform a wallet transfer via automationTime.scheduleNativeTransferTask(providedId, time, recipientId, amount)
 
-- [] 3. Integrate with an external notification service with the possible use cases:
+- [] Integrate with an external notification service with the possible use cases:
 
-- []  Listens for events from automationTime.scheduleNotifyTask(providedId, time, message) to send an email notification.
+- [] Listens for events from automationTime.scheduleNotifyTask(providedId, time, message) to send an email notification.
 
-- []  Listens for missed tasks events to send an email notification to inform the end use
+- [] Listens for missed tasks events to send an email notification to inform the end use
 
 
 ## Installation
