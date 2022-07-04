@@ -78,8 +78,8 @@ const TaskContainer = () => {
               );
             })}
           {allTasks.length === 0 && (
-            <div className="flex justify-center items-center w-full py-[30px]">
-              <h1 className="flex text-[#A22C90] text-[30px] leading-[21px] font-medium font-poppins">
+            <div className="flex justify-center items-center w-full py-[30px] mx-[60px]">
+              <h1 className="flex text-[#A22C90] text-[20px] leading-[21px] font-medium font-poppins">
                 No Task Yet
               </h1>
             </div>
