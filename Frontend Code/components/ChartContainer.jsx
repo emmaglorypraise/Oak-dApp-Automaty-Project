@@ -41,7 +41,7 @@ const ChartContainer = () => {
                 TUR 50,345.28
               </span>
             </div>
-            <div className="w-1/2 py-[16px] pl-[16px] md:pl-[86px] flex flex-col">
+            <div className="w-1/2 py-[16px] pl-[16px] md:pl-[26px] flex flex-col">
               <div className="flex">
                 <RiArrowDownLine
                   color="#F33030"
