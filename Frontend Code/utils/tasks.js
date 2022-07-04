@@ -93,6 +93,7 @@ export default function useTask() {
     amount = 0
   ) {
     try {
+      await dispatch(setLoader(true));
       var DateSeconds = (await new Date(date).getTime()) / 1000;
       const scheduleResult = await scheduleTask(message, DateSeconds);
       if (!scheduleResult) return;
@@ -107,6 +108,7 @@ export default function useTask() {
         })
       );
       toast.success("Task scheduled successfully");
+      await dispatch(setLoader(false));
     } catch {
       toast.error("Error scheduling task");
     }
